@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv/
+env/
+.env/
+python_env/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Environment Variables (IMPORTANT: Keep credentials safe!)
+.env
+
+# Test Outputs
+logs/
+screenshots/
+reports/
+*.log
+
+# Playwright
+playwright/.auth/
+test-results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Allure
+allure-results/
+allure-report/
+
+# Videos
+*.mp4
+*.webm
+logs/videos/
